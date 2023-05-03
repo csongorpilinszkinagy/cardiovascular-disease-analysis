@@ -19,3 +19,14 @@ Data stats:
 * 61,000 sampling points/measurement
 * 500 measurements in CSV format
 * 12*1000 measurements in MAT format
+
+## PPG analysis
+
+### Data cleaning
+In order to detects CVDs, feature extrantion is needed on the photoplethysmogram data. This relies on detecting local minima and maxima on the derivatives of the seuqences. Low frequency noise is due to the accidental movements during measurement, while high frequency noise is from electromagnetic disturbances during recording. Since the derivatives are highly sensitive to noise, the data needs cleaning both from low and high frequency noises. Fortunately the typical heart rate range is well defined. There are several ways to filter out noise:
+- Fourier transform
+- SVD
+- PD-SVD
+- Compressive sensing
+- Sparsity transform
+- Wavelet transform
