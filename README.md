@@ -30,3 +30,12 @@ In order to detects CVDs, feature extrantion is needed on the photoplethysmogram
 - Compressive sensing
 - Sparsity transform
 - Wavelet transform
+
+### Segmentation
+Finding local minima and maxima, then segmentation
+https://www.researchgate.net/publication/299593684_An_innovative_peak_detection_algorithm_for_photoplethysmography_signals_An_adaptive_segmentation_method
+
+### Segment aggregation
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3747602/
+
+### Characteristic point detection
