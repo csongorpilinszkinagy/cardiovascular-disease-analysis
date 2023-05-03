@@ -39,3 +39,37 @@ https://www.researchgate.net/publication/299593684_An_innovative_peak_detection_
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3747602/
 
 ### Characteristic point detection
+
+### Index calculation
+
+#### Morphological indices
+
+- **a-wave**: early systole positive wave
+- **b-wave**: early systole negative wave
+- **c-wave**: late systole reincreasing wave
+- **d-wave**: late systole redecreasing wave
+- **e-wave**: early distole pozitive wave
+- **Pulse transit time (PTT)**: time between systole and diastole peaks
+- **Large artery stiffness index (SI)**: height/PTT
+- **Reflection Index (RI)**: b/a * 100
+- **Dicrotic Notch Index**: *unknown*
+- **Systolic slope inclination (alpha)**: steepest slope of the incresing wave
+- **b/a**: Increased by CVD risk factors
+- **d/a**: Decreased by CVD risk factors
+- **Ageing index**: *unknown*
+- **c-d point detection rate**: C and D wave detection ratio
+- **Systolic-diastolic time ratio**: ratio of systolic and diastolic time
+- **Ejection duration (ED)**: *unknown*
+- **Left ventricular ejection time index (LVETI)(male)**: (1,7 * heart rate) + ED
+- **Left ventricular ejection time index (LVETI)(female)**: (1,6 * heart rate) + ED
+- **Ejection time @ 60**: ejection time adjusted for a pulse of 60/min (from start of period to the dicrotic notch)
+- **Crest time @ 60**: time from the start of the period to the systole amplitude adjusted for a pulse of 60/min
+- **ELVET 1 @ 60**: *"During ELVET 1 time, the heart does not have to deal with the retroactive force of the afterload"* adjusted for a pulse of 60/min
+- **ELVET2 @ 60**: *"In the case of ELVET2, the afterload can already play a significant role in shaping the length of this time interval"* adjusted for a pulse of 60/min
+
+#### Heart rate indices
+- **SDNN**: Standard deviation of period lengths
+- **rMSSD**: *unknown*
+- **Total power**: Area under frequency domain
+- **LF/HF**: The ratio of extreme values in the frequency domain
+- **DFA Alpha 1**: *unknown*
